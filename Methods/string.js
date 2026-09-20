@@ -1,0 +1,14 @@
+let str = "  Hello Miruthula  ";
+console.log("Original:", str);
+console.log("Length:", str.length);
+console.log("Uppercase:", str.toUpperCase());
+console.log("Lowercase:", str.toLowerCase());
+console.log("Character:", str.charAt(2));
+console.log("Index:", str.indexOf("M"));
+console.log("Starts With:", str.startsWith("  Hello"));
+console.log("Ends With:", str.endsWith("  "));
+console.log("Slice:", str.slice(2, 7));
+console.log("Substring:", str.substring(2, 7));
+console.log("Replace:", str.replace("Hello", "Hi"));
+console.log("Trim:", str.trim());
+console.log("Split:", str.trim().split(" "));
