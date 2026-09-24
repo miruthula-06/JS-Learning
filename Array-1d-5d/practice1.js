@@ -1,0 +1,18 @@
+let arr = ['A','B','C','D','E'];
+console.log(arr);
+arr.push('F');
+console.log(arr);
+arr.pop();
+console.log(arr);
+arr.shift();
+console.log(arr);
+arr.unshift('A');
+console.log(arr);
+let result1 = arr.slice(1, 4);
+console.log(result1);
+console.log(arr);
+let result2 = arr.splice(1, 2);
+console.log(result2);
+console.log(arr);
+arr.splice(1, 0, 'B', 'C');
+console.log(arr);
