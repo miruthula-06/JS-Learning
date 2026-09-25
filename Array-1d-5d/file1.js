@@ -1,0 +1,15 @@
+let arr1 = [10, 20, 30, 40, 50];
+console.log(arr1);
+console.log(arr1[2]);
+let arr2 = [[10, 20],[30, 40],[50, 60]];
+console.log(arr2);
+console.log(arr2[1][0]);
+let arr3 = [[[10, 20],[30, 40]],[[50, 60],[70, 80]]];
+console.log(arr3);
+console.log(arr3[1][0][1]);
+let arr4 = [[[[10, 20],[30, 40]],[[50, 60],[70, 80]]]];
+console.log(arr4);
+console.log(arr4[0][1][0][1]);
+let arr5 = [[[[[10, 20],[30, 40]],[[50, 60],[70, 80]]]]];
+console.log(arr5);
+console.log(arr5[0][0][1][0][1]);
